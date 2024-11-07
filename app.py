@@ -16,3 +16,9 @@ st.write(f"Your selected age is: {age}")
 name = st.text_input('Enter your name:')
 if name:
     st.write(f"Hello, {name}!")
+
+
+st.button('Hit me')
+st.data_editor('Edit data', data)
+st.checkbox('Check me out')
+st.radio('Pick one:', ['nose','ear'])
